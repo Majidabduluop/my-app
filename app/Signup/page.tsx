@@ -1,4 +1,5 @@
 "use client";
+import { supabase } from "../lib/supabaseClient";
 import { TextInput, Button } from "@mantine/core";
 import { useForm, Controller } from "react-hook-form";
 
